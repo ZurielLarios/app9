@@ -49,7 +49,7 @@ $('#pause').click(function (){
 //stop button
 $('#stop').click(function (){
 	audio.pause();
-	audio.currentTime=0;
+	audio.currentTime = 0;
 	$('#pause').hide();
 	$('#play').show();
 	$('#duration').fadeOut(400);
@@ -59,7 +59,7 @@ $('#stop').click(function (){
 $('#next').click(function (){
 	audio.pause();
 	var next = $('#playlist li.active').next();
-	if (next.length==0){
+	if (next.length == 0){
 		next = $('#playlist li:first-child');
 	}
 	initAudio (next);

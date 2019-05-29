@@ -75,6 +75,12 @@ background:url(../images/play.png) no-repeat;float:left;
 button#pause{
 width:70px;
 height:70px;
+background:url(../images/pause.png) no-repeat;float:left;
+}
+
+button#stop{
+width:70px;
+height:70px;
 background:url(../images/stop.png) no-repeat;float:left;
 }
 
